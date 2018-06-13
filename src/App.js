@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import RecruitersJSON from './json/recruiters.json';
-import RecruitersList from './RecruitersList';
+import domains from './json/recruiters.json';
+import Header from './Header';
+import FilterableRecruitersList from './FilterableRecruitersList';
 import './App.css';
+
 class App extends Component {
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title"><span role="img" aria-label="Poop Emoji">💩</span> Recruitment Companies</h1>
-        </header>
-        <RecruitersList recruiters={RecruitersJSON} />
+        <Header />
+        <FilterableRecruitersList domains={domains} />
       </div>
     );
   }

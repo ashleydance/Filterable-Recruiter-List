@@ -1,15 +1,88 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   color: #fff;
-  background-color: #FAACA8;
-  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .App-title {
   font-size: 32px;
+  margin: 0 0 20px;
+  font-weight: 600;
+}
+
+.App-header p {
+  font-size: 16px;
   margin: 0;
+}
+
+.App-header a {
+  color: #fff;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.App-header a:hover {
+  opacity: 0.5;
+}
+
+.navigation {
+  text-align: right;
+  padding: 50px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-title span {
+  padding-right: 10px;
+}
+
+.recruiters-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.recruiters-list li {
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: #2c2c2c;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2c2c2c;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #2c2c2c;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #2c2c2c;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #2c2c2c;
+}
+
+form {
+  padding: 40px 0;
+}
+
+input {
+  width: 400px;
+  max-width: 95%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border: none;
+  font-size: 20px;
+  color: #2c2c2c;
+  border-bottom: 1px solid #a29bfe;
 }
