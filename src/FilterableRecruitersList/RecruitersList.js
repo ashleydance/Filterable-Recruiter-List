@@ -5,7 +5,7 @@ class RecruitersList extends Component {
 
     let filteredDomains = this.props.domains.filter(
       domain => {
-        return domain.startsWith(this.props.filterText) == true;
+        return domain.startsWith(this.props.filterText) === true;
       }
     );
 
