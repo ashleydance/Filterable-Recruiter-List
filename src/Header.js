@@ -13,7 +13,7 @@ function Header() {
         <span role="img" aria-label="Poop Emoji">💩</span>
         Recruiters
       </h1>
-      <p>A filterable list of Recruiters to avoid. <br />Shoutout to <a rel="noopener noreferrer" href="https://github.com/alexmbird/uk-it-recruiter-domains" target="_blank">Alex Hewson</a> for the list.</p>
+      <p>A filterable list of Recruitment companies. <br />Shoutout to <a rel="noopener noreferrer" href="https://github.com/alexmbird/uk-it-recruiter-domains" target="_blank">Alex Hewson</a> for the list.</p>
     </header>
   )
 }
